@@ -1,0 +1,2 @@
+$PSVersionTable
+$PSVersionTable.PSVersion
