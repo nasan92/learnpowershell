@@ -39,3 +39,5 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass
 
 ## Run Powershell as admin
 RUNNING POWERSHELL AS ADMINISTRATOR At times it’s necessary to run the PowerShell console as Administrator. This typically happens when you need to modify files, the registry, or anything else that’s outside your user profile.  You can run PowerShell as an Administrator by right-clicking in Windows PowerShell and then clicking Run as Administrator.
+
+[Demo Sandboxk](demo-sandbox-readme.md)
