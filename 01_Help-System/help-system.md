@@ -17,3 +17,21 @@ Get-Member
       B-->D;
       C-->D;
 ```
+
+```mermaid
+graph TD
+
+A[Command]
+B[cmdlet]
+C[functions]
+D[workflows]
+E[and more]
+
+A --> B
+A --> C
+A --> D
+A --> E
+
+class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
+```
+
