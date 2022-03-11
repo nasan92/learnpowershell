@@ -34,10 +34,10 @@ Check which Powershell version you are using:
 [00_PSVersion](00_GettingStared/../00_GettingStarted/00_PSVersion.ps1)
 
 ## Execution Policy
-It's designed to prevent a user from unknowingly running a script.
-Get-ExecutionPolicy
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
-Set-ExecutionPolicy -ExecutionPolicy Bypass
+It's designed to prevent a user from unknowingly running a script.  
+
+[01_Executionpolicy](00_GettingStared/../00_GettingStarted/01_Executionpolicy.ps1)
+
 
 ## Run Powershell as admin
 RUNNING POWERSHELL AS ADMINISTRATOR At times it’s necessary to run the PowerShell console as Administrator. This typically happens when you need to modify files, the registry, or anything else that’s outside your user profile.  You can run PowerShell as an Administrator by right-clicking in Windows PowerShell and then clicking Run as Administrator.
