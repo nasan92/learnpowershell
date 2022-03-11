@@ -26,11 +26,11 @@ foreach($i in $software){
 - create your first repo, clone it and open it in vscode https://docs.github.com/en/get-started/quickstart/hello-world#creating-a-repository
 - login to vscode with your github account
 - install powershell extension in vscode
+- optional: synchronize your vscode settings, extensions with your github account
 
 ### What version of PowerShell am I running?
-Check which Powershell version you are using:
-$PSVersionTable
-$PSVersionTable.PSVersion
+Check which Powershell version you are using:  
+
 [00_PSVersion](00_GettingStared/../00_GettingStarted/00_PSVersion.ps1)
 
 ## Execution Policy
