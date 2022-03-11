@@ -11,14 +11,6 @@ Get-Help ->  helps you learn how to use commands once you find them.
 Get-Member
 
 ```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
-
-```mermaid
 graph TD
 
 A[Command]
