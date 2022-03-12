@@ -55,7 +55,7 @@ Command is a more general class which includes for example functions as well:
 ```mermaid
 graph TD
 
-A[[Get-command examples](/01_Help-System/00_get-command.ps1)]
+A[Command]
 B[cmdlet]
 C[functions]
 D[workflows]
