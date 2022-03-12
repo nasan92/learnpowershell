@@ -6,6 +6,12 @@ help Get-Help -Parameter Name
 # Get Help in another window
 help Get-Command -Full | Out-GridView 
 
+# get help online
+get-help -Name ForEach-Object -online
+
+# get help examples
+get-help -Name ForEach-Object -examples
+
 # Find help with asterisk and a name -> asteriks are not necessary but work always consitently
 help *process*
 help process
