@@ -11,7 +11,7 @@ recommendation: use a package manager like [winget](https://docs.microsoft.com/e
 - git
 - Powershell 7 
 
-[Script to use winget in a Windows Sandbox](00_GettingStarted\Demo\winget-sandbox.ps1)  
+[Script to use winget in a Windows Sandbox](00_GettingStared/../00_GettingStarted\Demo\winget-sandbox.ps1)  
 [Script to install the mentioned software above with winget](00_GettingStared/../00_GettingStarted/InstallSoftware.ps1)  
 #### Create your personal Github Account with a Repository
 
