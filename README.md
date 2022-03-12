@@ -20,6 +20,12 @@ foreach($i in $software){
     winget install $i
 }
 ``
+
+``$software = @("vscode", "Microsoft.Powershell", "Git.Git", "Microsoft.WindowsTerminal") |
+foreach($i in $software){
+    winget install $i
+}
+``
 #### Create your personal Github Account with a Repository
 
 - create your own Github account https://github.com/

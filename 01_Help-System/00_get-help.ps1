@@ -1,6 +1,7 @@
 # Get Help
 Get-Help -Name Get-Help
 
+# short form help (function) - shows all help on one site
 help Get-Help -Parameter Name
 
 # Get Help in another window
