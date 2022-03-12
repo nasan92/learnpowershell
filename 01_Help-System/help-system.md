@@ -6,9 +6,9 @@ Compiled commands in PowerShell are called cmdlets.
 Cmdlets names have the form of singular "Verb-Noun" commands to make them easily discoverable.
 
 ### The Three Core Cmdlets in PowerShell:  
-**Get-Command  **
-**Get-Help ->  helps you learn how to use commands once you find them.  **
-**Get-Member  **
+**Get-Command**  
+**Get-Help ->  helps you learn how to use commands once you find them.**  
+**Get-Member**  
 
 ```mermaid
 graph TD
