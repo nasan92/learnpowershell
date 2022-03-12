@@ -8,5 +8,5 @@ $software = @(
 )
 
 foreach($i in $software){
-    winget install $i
+    winget install $i --accept-package-agreements
 }
