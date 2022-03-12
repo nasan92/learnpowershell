@@ -18,7 +18,7 @@ recommendation: use a package manager like [winget](https://docs.microsoft.com/e
 - create your own Github account https://github.com/
 - create your first repo, clone it and open it in vscode https://docs.github.com/en/get-started/quickstart/hello-world#creating-a-repository
 - login to vscode with your github account
-- install powershell extension in vscode
+- install powershell extension in vscode https://code.visualstudio.com/docs/languages/powershell
 - optional: synchronize your vscode settings, extensions with your github account
 
 ### What version of PowerShell am I running?
