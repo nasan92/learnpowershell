@@ -50,11 +50,12 @@ https://docs.microsoft.com/en-us/powershell/scripting/learn/ps101/02-help-system
 
 Compiled commands in PowerShell are called cmdlets. 
 Cmdlets names have the form of singular "Verb-Noun" commands to make them easily discoverable.
+Command is a more general class which includes for example functions as well:
 
 ```mermaid
 graph TD
 
-A[Command]
+A[[Get-command examples](/01_Help-System/00_get-command.ps1)]
 B[cmdlet]
 C[functions]
 D[workflows]
