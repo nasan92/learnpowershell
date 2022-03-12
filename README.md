@@ -4,28 +4,15 @@
 
 ### Prepare your environment
 #### Install Software
-install the following software (recommendation: use a package manager like winget for example to install this software):
+install the following software:  
+recommendation: use a package manager like [winget](https://docs.microsoft.com/en-us/windows/package-manager/winget/) for example  
 - vscode
 - Windows Terminal
 - git
 - Powershell 7 
 
-``$software = @(
-"vscode"
-"Microsoft.Powershell"
-"Git.Git"
-"Microsoft.WindowsTerminal "
-)
-foreach($i in $software){
-    winget install $i
-}
-``
-
-``$software = @("vscode", "Microsoft.Powershell", "Git.Git", "Microsoft.WindowsTerminal") |
-foreach($i in $software){
-    winget install $i
-}
-``
+[Script to use winget in a Windows Sandbox](00_GettingStarted\Demo\winget-sandbox.ps1)
+[Script to install the mentioned software above with winget](00_GettingStared/../00_GettingStarted/InstallSoftware.ps1)
 #### Create your personal Github Account with a Repository
 
 - create your own Github account https://github.com/

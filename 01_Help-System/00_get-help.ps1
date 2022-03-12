@@ -5,6 +5,7 @@ Get-Help -Name Get-Help
 help Get-Help -Parameter Name
 
 # Get Help in another window
+help get-eventlog -ShowWindow 
 help Get-Command -Full | Out-GridView 
 
 # get help online
