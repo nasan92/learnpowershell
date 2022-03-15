@@ -4,7 +4,7 @@ $software = @(
 "vscode"
 "Microsoft.Powershell"
 "Git.Git"
-"Microsoft.WindowsTerminal "
+"Microsoft.WindowsTerminal"
 )
 
 foreach($i in $software){
