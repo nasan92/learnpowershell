@@ -7,11 +7,12 @@ Set-ExecutionPolicy -ExecutionPolicy Restricted
 Get-Service -Name W32Time | Stop-Service -PassThru
 
 # this one fails
-.\S1-GettingStarted\Stop-TimeService.ps1
+00_GettingStarted\Stop-TimeService.ps1
 
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+
 # now it should work
-.\S1-GettingStarted\Stop-TimeService.ps1
+.\00_GettingStarted\Stop-TimeService.ps1
 
 # bypass will allow all
 Set-ExecutionPolicy -ExecutionPolicy Bypass
