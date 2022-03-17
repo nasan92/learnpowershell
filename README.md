@@ -45,7 +45,7 @@ https://docs.microsoft.com/en-us/powershell/scripting/learn/ps101/02-help-system
 - **Get-Help ->  helps you learn how to use commands once you find them.**  
   - [Get-help examples](/01_Help-System/00_get-help.ps1)
 - **Get-Command**  
-  - [Get-command examples](/01_Help-System/00_get-command.ps1)
+  - [Get-command examples](/01_Help-System/01_get-command.ps1)
 - **Get-Member (in another chapter)**  
 
 ### discover commands
