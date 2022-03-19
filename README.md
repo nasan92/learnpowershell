@@ -75,3 +75,26 @@ class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 [LAB - Help System](/01_Help-System/lab-help-system.md)
 
 ## 02 - Variables
+A variable is a unit of memory in which values are stored.  
+In PowerShell, variables are represented by text strings that begin with a dollar sign ($), such as $a, $process, or $my_var.  
+[About_variables](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_variables?view=powershell-7.2)  
+
+```mermaid
+graph TD
+
+A[types of variables]
+B[User-created]
+C[Automatic]
+D[Preference]
+
+
+A --> B
+A --> C
+A --> D
+
+
+class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
+```
+
+You can find examples of variables and how to work with them here: 
+[Variables examples](/02_Variables/00_Var.ps1)

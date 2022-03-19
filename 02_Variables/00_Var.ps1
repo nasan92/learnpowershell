@@ -1,6 +1,7 @@
-# display and changing a variable
-$MaximumHistoryCount
+# variables: https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_variables?view=powershell-7.2
 
+# USER CREATED VARIABLES 
+# display and changing a variable
 $color
 
 # strictmode: Establishes and enforces coding rules in expressions, scripts, and script blocks.
@@ -12,6 +13,13 @@ $color
 $color = "blue"
 $color
 
+Write-host "The color is $color"
+# Note the difference from single quotations marks to double:
+Write-host 'The color is $color'
+
+$phrase = "the color is $color"
+$phrase
+
 Set-Variable -Name color -Value blue
 Get-Variable -Name color
 
@@ -19,7 +27,7 @@ Get-Variable -Name color
 Get-Variable 
 
 
-# automatic variables
+# AUTOMATIC VARIABLES 
 # Find help to automatic variables: 
 help automatic_variables
 # Link: https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_automatic_variables?view=powershell-7.2
@@ -63,3 +71,10 @@ $LASTEXITCODE
 $IsLinux
 $IsMacOS
 $IsWindows
+
+
+# PREFERENCE VARIABLES
+# reference variables store user preferences for PowerShell. 
+$MaximumHistoryCount
+
+Get-History
