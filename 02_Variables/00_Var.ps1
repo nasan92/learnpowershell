@@ -26,6 +26,12 @@ Get-Variable -Name color
 # List all the variables currently in memory:
 Get-Variable 
 
+# store results of commands:
+$Processes = Get-Process
+$Processes
+
+$Today = (Get-Date).DateTime
+$Today 
 
 # AUTOMATIC VARIABLES 
 # Find help to automatic variables: 

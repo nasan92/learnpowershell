@@ -43,9 +43,9 @@ https://docs.microsoft.com/en-us/powershell/scripting/learn/ps101/02-help-system
 
 ### The Three Core Cmdlets in PowerShell:  
 - **Get-Help ->  helps you learn how to use commands once you find them.**  
-  - [Get-help examples](/01_Help-System/00_get-help.ps1)
+  - [Learn how to use Get-help](/01_Help-System/00_get-help.ps1)
 - **Get-Command**  
-  - [Get-command examples](/01_Help-System/01_get-command.ps1)
+  - [Learn how to use Get-command](/01_Help-System/01_get-command.ps1)
 - **Get-Member (in another chapter)**  
 
 ### discover commands
@@ -77,7 +77,7 @@ class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 ## 02 - Variables
 A variable is a unit of memory in which values are stored.  
 In PowerShell, variables are represented by text strings that begin with a dollar sign ($), such as $a, $process, or $my_var.  
-[About_variables](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_variables?view=powershell-7.2)  
+[About_variables - Microsoft Docs](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_variables?view=powershell-7.2)  
 
 ```mermaid
 graph TD
@@ -96,5 +96,5 @@ A --> D
 class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 ```
 
-You can find examples of variables and how to work with them here: 
-[Variables examples](/02_Variables/00_Var.ps1)
+You can find examples of variables and how to work with them here:  
+[learn variables](/02_Variables/00_Var.ps1)
