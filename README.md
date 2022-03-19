@@ -78,6 +78,7 @@ class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 A variable is a unit of memory in which values are stored.  
 In PowerShell, variables are represented by text strings that begin with a dollar sign ($), such as $a, $process, or $my_var.  
 [About_variables - Microsoft Docs](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_variables?view=powershell-7.2)  
+[Language specifications - Variables](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-05?view=powershell-7.2)
 
 ```mermaid
 graph TD
@@ -97,4 +98,36 @@ class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 ```
 
 You can find examples of variables and how to work with them here:  
-[learn variables](/02_Variables/00_Var.ps1)
+[Learn variables](/02_Variables/00_Var.ps1)
+
+
+## 03 - Data Types
+Powershell can figure out data types based on the values you provide.  
+
+- [Boolean Values (true or false)](03_DataTypes/00_boolean.ps1)
+- [Integers and Floating Points](03_DataTypes/01_int-float.ps1)
+  - Integer Types
+    - int - 32 bits (-2147483648 to +2147483647)
+    - long - 64 bits ( -9223372036854775808 to +9223372036854775807)
+  - Floating-Point Types
+    - Float and Double
+- [Strings](03_DataTypes/02_strings.ps1)
+  - combining strings and Variables
+  - using doubles vs. single quotes
+- [Objects](03_DataTypes/03_objects.ps1)
+  - properties
+  - get-member
+  - Calling methods
+- Data structures
+  - Arrays
+    - Defining Arrays
+    - Reading Array Elements
+    - Modifying Elements in an Array
+    - Adding Elements to an Array
+  - ArrayLists
+    - Adding Elements to an ArrayList
+    - Removing Elements from an ArrayList
+  - Hashtables
+    - Reading Elements from Hashtables
+    - Adding and Modifying Hashtable items
+  - Creating Custom Objects

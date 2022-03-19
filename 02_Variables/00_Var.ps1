@@ -10,7 +10,7 @@ Set-StrictMode -Version latest
 $color
 
 # declare a variable and assign a value to it:
-$color = "blue"
+$color = "green"
 $color
 
 Write-host "The color is $color"
