@@ -103,6 +103,7 @@ You can find examples of variables and how to work with them here:
 
 ## 03 - Data Types
 Powershell can figure out data types based on the values you provide.  
+[Language specifications - Types](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-04?view=powershell-7.2)
 
 - [Boolean Values (true or false)](03_DataTypes/00_boolean.ps1)
 - [Integers and Floating Points](03_DataTypes/01_int-float.ps1)
@@ -114,7 +115,10 @@ Powershell can figure out data types based on the values you provide.
 - [Strings](03_DataTypes/02_strings.ps1)
   - combining strings and Variables
   - using doubles vs. single quotes
-- [Objects](03_DataTypes/03_objects.ps1)
+
+
+## 04 - Objects
+- [Objects](04_Objects/04_objects.ps1)
   - properties
   - get-member
   - Calling methods
@@ -134,6 +138,7 @@ A --> D
 class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 ```
 
+## 05 - Data structures
 - Data structures
   - Arrays
     - Defining Arrays
