@@ -118,6 +118,22 @@ Powershell can figure out data types based on the values you provide.
   - properties
   - get-member
   - Calling methods
+
+```mermaid
+graph TD
+
+A[object made up of 3 types of data:]
+B[objects type]
+C[methods]
+D[properties]
+
+A --> B
+A --> C
+A --> D
+
+class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
+```
+
 - Data structures
   - Arrays
     - Defining Arrays
@@ -131,3 +147,5 @@ Powershell can figure out data types based on the values you provide.
     - Reading Elements from Hashtables
     - Adding and Modifying Hashtable items
   - Creating Custom Objects
+
+
