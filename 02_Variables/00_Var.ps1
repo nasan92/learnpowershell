@@ -30,7 +30,7 @@ Get-Variable
 $Processes = Get-Process
 $Processes
 
-$Today = (Get-Date).DateTime
+$Today = Get-Date
 $Today 
 
 # AUTOMATIC VARIABLES 

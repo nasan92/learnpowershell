@@ -1,0 +1,3 @@
+- Store the Windows Services which are running on your computer into a variable
+- Display the contents of that variable
+- Export the variable's content to a CliXML File (hint: use PowerShell help)

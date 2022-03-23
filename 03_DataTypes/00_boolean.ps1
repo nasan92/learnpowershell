@@ -1,3 +1,5 @@
+#boolean $true or $false
+
 $holidays = $false
 $holidays
 
