@@ -100,6 +100,9 @@ class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 
 [About_variables - Microsoft Docs](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_variables?view=powershell-7.2)  
 [Language specifications - Variables](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-05?view=powershell-7.2)
+
+### LAB
+[LAB - Variables](/02_Variables/LAB_Variables.md)
 ## 03 - Data Types
 Powershell can figure out data types based on the values you provide.  
 
@@ -149,7 +152,8 @@ Links:
 [Microsoft Docs - Discovering objects, properties and methods](https://docs.microsoft.com/en-us/powershell/scripting/learn/ps101/03-discovering-objects?view=powershell-7.2)  
 [Microsoft Docs - about Objects](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_objects?view=powershell-7.2)  
 
-
+### LAB
+[LAB - Objects](/04_Objects/LAB_objects.md)
 ## 05 - Data structures
 - Data structures
   - Arrays
