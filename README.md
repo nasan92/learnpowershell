@@ -119,6 +119,12 @@ Powershell can figure out data types based on the values you provide.
 
 
 ## 04 - Objects
+In PowerShell - everything is an object. An object is an instance of a class.  
+The class determins methods, properties, actions.  
+
+An example of a class and objects
+![example](04_Objects/Class-Object-Example.drawio.svg)
+
 - [Objects](04_Objects/00_objects.ps1)
   - properties
   - get-member
@@ -138,6 +144,12 @@ A --> D
 
 class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 ```
+
+
+Links:  
+[Microsoft Docs - Discovering objects, properties and methods](https://docs.microsoft.com/en-us/powershell/scripting/learn/ps101/03-discovering-objects?view=powershell-7.2)  
+[Microsoft Docs - about Objects](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_objects?view=powershell-7.2)  
+
 
 ## 05 - Data structures
 - Data structures
