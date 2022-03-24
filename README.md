@@ -122,7 +122,7 @@ The class determins methods, properties, actions.
 
 An example of a class and objects  
 
-![example](04_Objects/Class-Object-Example.drawio.svg)
+![example](04_Objects/Class-Object-Example.png)
 
 - [Objects](04_Objects/00_objects.ps1)
   - properties
