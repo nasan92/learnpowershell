@@ -39,8 +39,6 @@ RUNNING POWERSHELL AS ADMINISTRATOR At times it’s necessary to run the PowerSh
 
 ## 01 - Help System
 
-https://docs.microsoft.com/en-us/powershell/scripting/learn/ps101/02-help-system?view=powershell-7.2
-
 ### The Three Core Cmdlets in PowerShell:  
 - **Get-Help ->  helps you learn how to use commands once you find them.**  
   - [Learn how to use Get-help](/01_Help-System/00_get-help.ps1)
@@ -71,6 +69,8 @@ A --> E
 class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 ```
 
+[Microsoft Docs - Help System](https://docs.microsoft.com/en-us/powershell/scripting/learn/ps101/02-help-system?view=powershell-7.2)
+
 ### LAB
 [LAB - Help System](/01_Help-System/lab-help-system.md)
 [LAB - Help System Answers](01_Help-System/z_lab-answers-help-system.md)
@@ -78,8 +78,8 @@ class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 ## 02 - Variables
 A variable is a unit of memory in which values are stored.  
 In PowerShell, variables are represented by text strings that begin with a dollar sign ($), such as $a, $process, or $my_var.  
-[About_variables - Microsoft Docs](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_variables?view=powershell-7.2)  
-[Language specifications - Variables](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-05?view=powershell-7.2)
+You can find examples of variables and how to work with them here:  
+[Learn variables](/02_Variables/00_Var.ps1)
 
 ```mermaid
 graph TD
@@ -98,13 +98,10 @@ A --> D
 class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 ```
 
-You can find examples of variables and how to work with them here:  
-[Learn variables](/02_Variables/00_Var.ps1)
-
-
+[About_variables - Microsoft Docs](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_variables?view=powershell-7.2)  
+[Language specifications - Variables](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-05?view=powershell-7.2)
 ## 03 - Data Types
 Powershell can figure out data types based on the values you provide.  
-[Language specifications - Types](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-04?view=powershell-7.2)
 
 - [Boolean Values (true or false)](03_DataTypes/00_boolean.ps1)
 - [Integers and Floating Points](03_DataTypes/01_int-float.ps1)
@@ -117,6 +114,7 @@ Powershell can figure out data types based on the values you provide.
   - combining strings and Variables
   - using doubles vs. single quotes
 
+[Language specifications - Types](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-04?view=powershell-7.2)
 
 ## 04 - Objects
 In PowerShell - everything is an object. An object is an instance of a class.  
