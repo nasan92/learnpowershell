@@ -122,7 +122,8 @@ Powershell can figure out data types based on the values you provide.
 In PowerShell - everything is an object. An object is an instance of a class.  
 The class determins methods, properties, actions.  
 
-An example of a class and objects
+An example of a class and objects  
+
 ![example](04_Objects/Class-Object-Example.drawio.svg)
 
 - [Objects](04_Objects/00_objects.ps1)
