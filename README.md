@@ -154,19 +154,30 @@ Links:
 
 ### LAB
 [LAB - Objects](/04_Objects/LAB_objects.md)
+
 ## 05 - Data structures
-- Data structures
-  - Arrays
-    - Defining Arrays
-    - Reading Array Elements
-    - Modifying Elements in an Array
-    - Adding Elements to an Array
-  - ArrayLists
-    - Adding Elements to an ArrayList
-    - Removing Elements from an ArrayList
-  - Hashtables
-    - Reading Elements from Hashtables
-    - Adding and Modifying Hashtable items
-  - Creating Custom Objects
+From Wikipedia:   
+"In computer science, a data structure is a data organization, management, and storage format that enables efficient access and modification. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data, i.e., it is an algebraic structure about data."
+
+### Arrays
+If you imagine a int variable as a simple box then an array is a lot of boxes taped together.
+In other Word an array is a list of items represented by a single variable
+
+- Arrays
+  - Defining Arrays
+  - Reading Array Elements
+  - Modifying Elements in an Array
+  - Adding Elements to an Array
+### ArrayLists
+- ArrayLists
+  - Adding Elements to an ArrayList
+  - Removing Elements from an ArrayList
+### Hashtables
+- Hashtables
+  - Reading Elements from Hashtables
+  - Adding and Modifying Hashtable items
+
+### Custom Objects
+- Creating Custom Objects
 
 

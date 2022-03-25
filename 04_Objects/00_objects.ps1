@@ -7,6 +7,7 @@ $car = "Toyota"
 # look at properties of an object:
 Select-Object -InputObject $car -Property *
 $car | Select-Object *
+$car | select *
 
 $car.Length
 
@@ -23,6 +24,7 @@ $car.Remove(1,1)
 $car.Remove(0,3)
 
 $car.ToLower()
+$car.ToUpper()
 
 'this is rocket science'.Replace('rocket', 'rock')
 
