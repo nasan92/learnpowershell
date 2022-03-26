@@ -72,7 +72,7 @@ class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 [Microsoft Docs - Help System](https://docs.microsoft.com/en-us/powershell/scripting/learn/ps101/02-help-system?view=powershell-7.2)
 
 ### LAB
-[LAB - Help System](/01_Help-System/lab-help-system.md)
+[LAB - Help System](/01_Help-System/lab-help-system.md)  
 [LAB - Help System Answers](01_Help-System/z_lab-answers-help-system.md)
 
 ## 02 - Variables

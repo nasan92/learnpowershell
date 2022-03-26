@@ -1,6 +1,6 @@
 # Creating an Array
 # ----------------------------------------------------------------------------------------------------
-# the @ sign with the paranthesis signlas that you'd like to create an array
+# the @ sign with the paranthesis signals that you'd like to create an array
 
 $beerTypePicker = @('Lager','Porter','Stout','Blond Ale','Brown Ales','Pale Ale','India Pale ALe')
 $beerTypePicker
@@ -25,15 +25,10 @@ $C = 5..9
 $C
 $C.gettype()
 
-# to use a specific data type:
-[int32[]]$intNumbers = 1500,2230,3350,4000
-$intNumbers
-$intNumbers.gettype()
-
-[string[]]$stringNumbers = 1500,2230,3350,4000
-$stringNumbers
-$stringNumbers.gettype()
-
+# Use Write-output to create arrays:
+$data = Write-Output Zero One Two Three
+$data 
+$data.gettype()
 
 # Reading Array Elements
 # ----------------------------------------------------------------------------------------------------
@@ -74,7 +69,7 @@ $beerTypePicker[4] = "Sour Ale"
 $beerTypePicker[4]
 
 
-# Adding Elements to an Array
+# "Adding Elements" to an Array
 # ----------------------------------------------------------------------------------------------------
 # If you want to add items to an array, use the addition operator +
 $beerTypePicker = $beerTypePicker + 'Pilsner'
@@ -93,7 +88,7 @@ $beerTypePicker
 # This might cause performance issues if the operation is repeated several times or the size of the array is too big.
 
 
-# Creating an Array that contains other arrays - known as a jagged array
+# Creating an Array that contains other arrays - known as a jagged array or nested arrays
 # ----------------------------------------------------------------------------------------------------
 
 $alcoholTypePicker = @(
@@ -125,7 +120,7 @@ $beerTypePicker.Count
 $beerTypePicker.Length
 
 
-# Removing Elements from an Array
+# "Removing Elements" from an Array
 # ----------------------------------------------------------------------------------------------------
 
 # There is no easy way to delete elements from an array. But you can create a new array that contains only selected items of an existing array. 
@@ -137,4 +132,32 @@ $beerTypePickerNew
 $beerTypePickerNew2 = $beerTypePicker[0,1 + 3..($beerTypePicker.Length -1)]
 $beerTypePickerNew2
 
+
+# Array of Objects - arrays can also contain objects 
+# ----------------------------------------------------------------------------------------------------
+
+# example:
+$processList = Get-Process
+$processList.GetType()
+
+# accessing properties 
+# index can bi used to access an individual item
+$processList[0] 
+$processList[0].ProcessName
+
+# you can as well request specific properties from the whole array
+$processList.ProcessName
+
+
+# Array Types - By default, an array in PowerShell is created as a [PSObject[]] type.
+# ----------------------------------------------------------------------------------------------------
+
+# to use a specific data type (strongly typed arrays):
+[int32[]]$intNumbers = 1500,2230,3350,4000
+$intNumbers
+$intNumbers.gettype()
+
+[string[]]$stringNumbers = 1500,2230,3350,4000
+$stringNumbers
+$stringNumbers.gettype()
 
