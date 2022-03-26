@@ -4,10 +4,36 @@
 
 $beerTypePicker = @('Lager','Porter','Stout','Blond Ale','Brown Ales','Pale Ale','India Pale ALe')
 $beerTypePicker
+$beerTypePicker.GetType()
 
 # PowerShell treats any comma-separated set of values as an array - so it isn't necessary to use the @ and parentheses
 $wineTypePicker = 'Pinot noir','Syrah','Cabernet Sauvignon'
 $wineTypePicker
+$wineTypePicker.GetType()
+
+# Creating an array with numeric values:
+$numbers = 22,5,3,75,34,2
+$numbers
+$numbers.GetType()
+
+# other examples with numbers:
+# single item array:
+$B = ,8
+$B.GetType()
+# using range
+$C = 5..9
+$C
+$C.gettype()
+
+# to use a specific data type:
+[int32[]]$intNumbers = 1500,2230,3350,4000
+$intNumbers
+$intNumbers.gettype()
+
+[string[]]$stringNumbers = 1500,2230,3350,4000
+$stringNumbers
+$stringNumbers.gettype()
+
 
 # Reading Array Elements
 # ----------------------------------------------------------------------------------------------------
@@ -30,6 +56,11 @@ $beerTypePicker[30]
 1..6
 # range operator within the array:
 $beerTypePicker[0..3]
+
+# to show the last three elements:
+$beerTypePicker[-3..-1]
+# shows the last three elements as well but in descending order:
+$beerTypePicker[-1..-3]
 
 
 # Modifying Elements in an Array
@@ -58,7 +89,52 @@ $beerTypePicker
 $beerTypePicker += @('Belgian-Style Ale','German Bock')
 $beerTypePicker
 
+# NOTE: When you use the += operator, PowerShell actually creates a new array with the values of the original array and the added value. 
+# This might cause performance issues if the operation is repeated several times or the size of the array is too big.
+
+
+# Creating an Array that contains other arrays - known as a jagged array
+# ----------------------------------------------------------------------------------------------------
+
+$alcoholTypePicker = @(
+    $beerTypePicker,
+    $wineTypePicker
+)
+$alcoholTypePicker.gettype()
+# to access the first Array int the alcoholTypePicker Array:
+$alcoholTypePicker[0]
+# to access the second item (numbering starts at 0) in the first item(array) of alcoholTypePicker 
+$alcoholTypePicker[0][1]
+
+
+
+
+# View Properties of Array Elements
+# ----------------------------------------------------------------------------------------------------
+# When you pipe and array of objects to Get-Member, the cmdlet returns a member list for each unique object type in the array.
+$array = @(1,'hello')
+$array | Get-Member
+
+# If you pass the array using the InputObject parameter, the array is treated as a single object.
+Get-Member -InputObject $array
+
+get-member -InputObject $beerTypePicker
+
+# To determine how many items are in an array use Count or Lenght 
+$beerTypePicker.Count
+$beerTypePicker.Length
+
+
 # Removing Elements from an Array
 # ----------------------------------------------------------------------------------------------------
 
-# that's complicated xD
+# There is no easy way to delete elements from an array. But you can create a new array that contains only selected items of an existing array. 
+# in This example I would like to remove the first item from the beerTypePicker Array:
+$beerTypePickerNew = $beerTypePicker[1..($beerTypePicker.Length -1)]
+$beerTypePickerNew
+
+# to remove the third item from beerTypePicker Array which is on index position 2:
+$beerTypePickerNew2 = $beerTypePicker[0,1 + 3..($beerTypePicker.Length -1)]
+$beerTypePickerNew2
+
+

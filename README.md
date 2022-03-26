@@ -168,6 +168,9 @@ In other Word an array is a list of items represented by a single variable
   - Reading Array Elements
   - Modifying Elements in an Array
   - Adding Elements to an Array
+
+[Microsoft Docs about_Arrays](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_arrays?view=powershell-7.2)
+[Everything you wanted to know about arrays](https://powershellexplained.com/2018-10-15-Powershell-arrays-Everything-you-wanted-to-know/)
 ### ArrayLists
 - ArrayLists
   - Adding Elements to an ArrayList
