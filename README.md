@@ -167,7 +167,7 @@ In other Word an array is a list of items represented by a single variable
 
 [Learn Arrays](/05_DataStructures/00_Arrays.ps1)
 
-Links:
+Links:  
 [Microsoft Docs about_Arrays](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_arrays?view=powershell-7.2)  
 [Everything you wanted to know about arrays](https://powershellexplained.com/2018-10-15-Powershell-arrays-Everything-you-wanted-to-know/)  
 
@@ -184,5 +184,5 @@ Links:
 ### Custom Objects
 [Learn Custom Objects](/05_DataStructures/03_CustomObjects.ps1)
 
-Links:
+Links:  
 [Everything you wanted to know about PSCustomObject](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-pscustomobject?view=powershell-7.2)
