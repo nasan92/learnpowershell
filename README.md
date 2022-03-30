@@ -167,19 +167,22 @@ In other Word an array is a list of items represented by a single variable
 
 [Learn Arrays](/05_DataStructures/00_Arrays.ps1)
 
+Links:
+[Microsoft Docs about_Arrays](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_arrays?view=powershell-7.2)  
+[Everything you wanted to know about arrays](https://powershellexplained.com/2018-10-15-Powershell-arrays-Everything-you-wanted-to-know/)  
 
-[Microsoft Docs about_Arrays](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_arrays?view=powershell-7.2)
-[Everything you wanted to know about arrays](https://powershellexplained.com/2018-10-15-Powershell-arrays-Everything-you-wanted-to-know/)
 ### ArrayLists
 [Learn ArrayLists](/05_DataStructures/01_ArrayLists.ps1)
 
 ### Hashtables
 [Learn Hashtables](/05_DataStructures/02_Hashtables.ps1)
 
+Links:  
+[Microsoft Docs about_Hash_Tables](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_hash_tables?view=powershell-7.2)  
+[Everything you wanted to know about hashtables](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-hashtable?view=powershell-7.2)  
 
 ### Custom Objects
-- Creating Custom Objects
-
 [Learn Custom Objects](/05_DataStructures/03_CustomObjects.ps1)
 
-
+Links:
+[Everything you wanted to know about PSCustomObject](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-pscustomobject?view=powershell-7.2)
