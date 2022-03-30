@@ -165,24 +165,21 @@ From Wikipedia:
 If you imagine a int variable as a simple box then an array is a lot of boxes taped together.
 In other Word an array is a list of items represented by a single variable
 
-- Arrays
-  - Defining Arrays
-  - Reading Array Elements
-  - Modifying Elements in an Array
-  - Adding Elements to an Array
+[Learn Arrays](/05_DataStructures/00_Arrays.ps1)
+
 
 [Microsoft Docs about_Arrays](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_arrays?view=powershell-7.2)
 [Everything you wanted to know about arrays](https://powershellexplained.com/2018-10-15-Powershell-arrays-Everything-you-wanted-to-know/)
 ### ArrayLists
-- ArrayLists
-  - Adding Elements to an ArrayList
-  - Removing Elements from an ArrayList
+[Learn ArrayLists](/05_DataStructures/01_ArrayLists.ps1)
+
 ### Hashtables
-- Hashtables
-  - Reading Elements from Hashtables
-  - Adding and Modifying Hashtable items
+[Learn Hashtables](/05_DataStructures/02_Hashtables.ps1)
+
 
 ### Custom Objects
 - Creating Custom Objects
+
+[Learn Custom Objects](/05_DataStructures/03_CustomObjects.ps1)
 
 
