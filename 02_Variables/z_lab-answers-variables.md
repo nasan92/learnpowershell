@@ -1,0 +1,7 @@
+- Store the Windows Services which are running on your computer into a variable
+  - `$services = get-service`
+- Display the contents of that variable
+  - `$services` or
+  - `Write-host $services`
+- Export the variable's content to a CliXML File (hint: use PowerShell help)
+  - `$services = Export-Clixml -Path C:\temp\services.xml`

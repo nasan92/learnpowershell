@@ -73,7 +73,7 @@ class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 
 ### LAB
 [LAB - Help System](/01_Help-System/lab-help-system.md)  
-[LAB - Help System Answers](01_Help-System/z_lab-answers-help-system.md)
+[LAB - Help System answers](01_Help-System/z_lab-answers-help-system.md)
 
 ## 02 - Variables
 A variable is a unit of memory in which values are stored.  
@@ -102,7 +102,8 @@ class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 [Language specifications - Variables](https://docs.microsoft.com/en-us/powershell/scripting/lang-spec/chapter-05?view=powershell-7.2)
 
 ### LAB
-[LAB - Variables](/02_Variables/LAB_Variables.md)
+[LAB - Variables](/02_Variables/LAB_Variables.md)    
+[LAB - Variables answers](/02_Variables/z_lab-answers-variables.md)
 ## 03 - Data Types
 Powershell can figure out data types based on the values you provide.  
 
@@ -154,6 +155,7 @@ Links:
 
 ### LAB
 [LAB - Objects](/04_Objects/LAB_objects.md)
+[LAB - Objects answers](04_Objects/z_LAB-answers-objects.md)
 
 ## 05 - Data structures
 From Wikipedia:   
