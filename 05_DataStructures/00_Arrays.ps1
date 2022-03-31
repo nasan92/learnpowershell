@@ -86,7 +86,7 @@ $beerTypePicker
 
 # NOTE: When you use the += operator, PowerShell actually creates a new array with the values of the original array and the added value. 
 # This might cause performance issues if the operation is repeated several times or the size of the array is too big.
-
+$beerTypePicker.IsFixedSize
 
 # Creating an Array that contains other arrays - known as a jagged array or nested arrays
 # ----------------------------------------------------------------------------------------------------
