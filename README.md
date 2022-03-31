@@ -154,7 +154,7 @@ Links:
 [Microsoft Docs - about Objects](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_objects?view=powershell-7.2)  
 
 ### LAB
-[LAB - Objects](/04_Objects/LAB_objects.md)
+[LAB - Objects](/04_Objects/LAB_objects.md)  
 [LAB - Objects answers](04_Objects/z_LAB-answers-objects.md)
 
 ## 05 - Data structures
