@@ -58,3 +58,33 @@ Get-Member -InputObject $myBeer2
 $myBeer2.psobject.properties.remove('Price')
 $myBeer2
 
+
+# Adding object methods
+# ----------------------------------------------------------------------------------------------------
+# to add a method directly during creation of the PSCustomObject:
+$myBeer = [PSCustomObject]@{
+    Name                    = 'Thun Bier'
+    Type                    = 'Pale Ale'
+    Manufacturer            = 'Brauerei Thun AG'
+    'Manufacturing date'    = ([ScriptBlock]{
+        Get-Date
+      }).InvokeReturnAsIs()
+}
+
+$myBeer
+
+# It is also possible to create the ScriptBlock outside of the PSCustomObject like in this example: 
+$ScriptBlockExample = ([scriptblock]{
+    Get-Date
+}).InvokeReturnAsIs()
+
+$myBeer2 = [PSCustomObject]@{
+    Name                    = 'Thun Bier'
+    Type                    = 'IPA'
+    Manufacturer            = 'Brauerei Thun AG'
+    'Manufacturing date'    = $ScriptBlockExample
+}
+$myBeer2 
+
+
+

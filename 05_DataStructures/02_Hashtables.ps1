@@ -16,8 +16,8 @@ $hash
 
 # you can create a hashtables and add keys and values also on multiple lines:
 $ageList = @{
-    Kevin = 36
-    Alex  = 9
+    Hans  = 73
+    John  = 33
 }
 
 # other example on multiple lines (lookup table):

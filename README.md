@@ -172,17 +172,27 @@ Links:
 [Everything you wanted to know about arrays](https://powershellexplained.com/2018-10-15-Powershell-arrays-Everything-you-wanted-to-know/)  
 
 ### ArrayLists
+We learned that Arrays in PowerShell have a fixed size. If you want to add additional items to the array it always creates a new array.  
+This can have a huge impact on performance especially if you are working with many elements.  
+Use ArrayList if you know you have to remove or add many elements to an array.  
+In ArrayLists it is possible to add and remove elements and therefore it is much faster.  
+Note: PowerShell is accessing .Net to get this type.  
+
 [Learn ArrayLists](/05_DataStructures/01_ArrayLists.ps1)
 
 ### Hashtables
+A hashtable is a data structure, much like an array, except you store each value (object) using a key. It's a basic key/value store.  
 [Learn Hashtables](/05_DataStructures/02_Hashtables.ps1)
 
 Links:  
 [Microsoft Docs about_Hash_Tables](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_hash_tables?view=powershell-7.2)  
 [Everything you wanted to know about hashtables](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-hashtable?view=powershell-7.2)  
 
-### Custom Objects
+### Custom Objects  
+You can create custom objects with properties and methods that you define.  
+
 [Learn Custom Objects](/05_DataStructures/03_CustomObjects.ps1)
 
 Links:  
-[Everything you wanted to know about PSCustomObject](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-pscustomobject?view=powershell-7.2)
+[Everything you wanted to know about PSCustomObject](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-pscustomobject?view=powershell-7.2)  
+[Microsoft Docs about_PSCustomObject](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_pscustomobject?view=powershell-7.2)

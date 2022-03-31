@@ -7,6 +7,8 @@
 $beerTypePicker = [System.Collections.ArrayList]@('Lager','Porter','Stout','Blond Ale','Brown Ales','Pale Ale','India Pale ALe')
 $beerTypePicker
 $beerTypePicker.GetType()
+$beerTypePicker.IsFixedSize
+
 
 # to create an empty list: 
 $myarray = [System.Collections.ArrayList]::new()
