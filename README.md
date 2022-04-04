@@ -207,4 +207,4 @@ The PowerShell pipeline allows you to send the output of one command directly in
 
 [Learn PowerShell Pipeline](/06_Pipeline/00_Pipeline.ps1)  
 
-![Parameter Binding Examples](/06_Pipeline/PowerShellPipeline.drawio.png)  
+![Parameter Binding Examples](/06_Pipeline/PowerShellPipeline.drawio.svg)  
