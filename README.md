@@ -195,4 +195,13 @@ You can create custom objects with properties and methods that you define.
 
 Links:  
 [Everything you wanted to know about PSCustomObject](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-pscustomobject?view=powershell-7.2)  
-[Microsoft Docs about_PSCustomObject](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_pscustomobject?view=powershell-7.2)
+[Microsoft Docs about_PSCustomObject](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_pscustomobject?view=powershell-7.2)  
+
+
+
+## 06 - Pipeline
+The PowerShell pipeline allows you to send the output of one command directly into another command as input.  
+
+[Learn PowerShell Pipeline](/06_Pipeline/00_Pipeline.ps1)  
+
+![Parameter Binding Examples](/06_Pipeline/PowerShellPipeline.drawio.png)  

@@ -17,6 +17,7 @@ Start-Service -Name $serviceName
 # How it works:
 Command-1 | Command-2 | Command-3
 
+
 # Piping objects between commands
 # ----------------------------------------------------------------------------------------------------
 # real example:
@@ -87,6 +88,7 @@ $process | get-process
 
 # other example
 get-service -name s* | get-member
+# take a look at the parameter and Inputs / outputs
 help stop-process -ShowWindow
 get-service -name s* | Stop-Process -whatif
 
@@ -100,7 +102,7 @@ Import-Csv .\06_Pipeline\aliases.csv | new-alias -WhatIf
 
 
 
-## One-Liners
+# One-Liners
 # ----------------------------------------------------------------------------------------------------
 Get-Service |
   Where-Object CanPauseAndContinue -eq $true |
@@ -111,7 +113,7 @@ $Service = 'w32time'; Get-Service -Name $Service
 
 
 
-## Filtering Left
+# Filtering Left
 # ----------------------------------------------------------------------------------------------------
 # In the pipeline you should always try to filter the results down to what you're looking for as eary as possible. 
 # Use parameters on the first command - filtering left
@@ -131,3 +133,21 @@ Where-Object CanPauseAndContinue
 Get-Service |
 Where-Object CanPauseAndContinue |
 Select-Object -Property DisplayName, Status
+
+
+
+# PowerShell Module MrToolkit
+# ----------------------------------------------------------------------------------------------------
+find-module -Name MrToolkit
+find-module -Name MrToolkit | Install-module
+
+# Remember Get-Comand ? you can use it to find all commands related to this module? 
+Get-Command -Module MrToolkit
+
+Get-MrPipelineInput -Name Stop-Process 
+
+
+$demoPropertyName = [PSCustomObject]@{
+  Name = 'w32time'
+}
+$demoPropertyName | get-member
