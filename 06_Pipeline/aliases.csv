@@ -1,0 +1,4 @@
+Name,Value
+d,Get-ChildItem
+sel,Select-Object
+go,Invoke-Command

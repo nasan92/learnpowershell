@@ -17,7 +17,6 @@ Start-Service -Name $serviceName
 # How it works:
 Command-1 | Command-2 | Command-3
 
-
 # Piping objects between commands
 # ----------------------------------------------------------------------------------------------------
 # real example:
@@ -76,7 +75,7 @@ Get-Help -Name get-service -ShowWindow
 
 # Accept pipeline input options: 
 # false             = not supported  
-# ByValue           = PS will look at type of object and interpret it accordingly
+# ByValue           = PS will look at type of object and interpret it accordingly  (tries to see if any parameter of the second command can accept that type of object from the pipeline)
 # ByPropertyName    = PS will look at the object passed in, verify if it has a property with appropiate name, takes the value of that property and accepts it as parameter
 
 $process = [PSCustomObject]@{
@@ -84,3 +83,51 @@ $process = [PSCustomObject]@{
 }
 $process | get-process
 
+# Note: Usually commands which are sharing the same noun like get-process / stop-process are able to pipe each other ByValue
+
+# other example
+get-service -name s* | get-member
+help stop-process -ShowWindow
+get-service -name s* | Stop-Process -whatif
+
+# example new aliases
+Import-Csv .\06_Pipeline\aliases.csv
+Import-Csv .\06_Pipeline\aliases.csv | get-member
+
+help new-alias
+
+Import-Csv .\06_Pipeline\aliases.csv | new-alias -WhatIf 
+
+
+
+## One-Liners
+# ----------------------------------------------------------------------------------------------------
+Get-Service |
+  Where-Object CanPauseAndContinue -eq $true |
+    Select-Object -Property *
+
+# two separate commands on one line:
+$Service = 'w32time'; Get-Service -Name $Service
+
+
+
+## Filtering Left
+# ----------------------------------------------------------------------------------------------------
+# In the pipeline you should always try to filter the results down to what you're looking for as eary as possible. 
+# Use parameters on the first command - filtering left
+
+# good example:
+Get-Service -Name w32time
+
+# bad example (has a huge performance impact if there are many objects to retrieve):
+Get-Service | Where-Object Name -eq w32time
+
+# doesn't return any result because property CanPauseAndContinue wasn't selected
+Get-Service |
+Select-Object -Property DisplayName, Running, Status |
+Where-Object CanPauseAndContinue
+
+# reversing the order and you'll get the result you want:
+Get-Service |
+Where-Object CanPauseAndContinue |
+Select-Object -Property DisplayName, Status
