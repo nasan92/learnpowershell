@@ -113,28 +113,6 @@ $Service = 'w32time'; Get-Service -Name $Service
 
 
 
-# Filtering Left
-# ----------------------------------------------------------------------------------------------------
-# In the pipeline you should always try to filter the results down to what you're looking for as eary as possible. 
-# Use parameters on the first command - filtering left
-
-# good example:
-Get-Service -Name w32time
-
-# bad example (has a huge performance impact if there are many objects to retrieve):
-Get-Service | Where-Object Name -eq w32time
-
-# doesn't return any result because property CanPauseAndContinue wasn't selected
-Get-Service |
-Select-Object -Property DisplayName, Running, Status |
-Where-Object CanPauseAndContinue
-
-# reversing the order and you'll get the result you want:
-Get-Service |
-Where-Object CanPauseAndContinue |
-Select-Object -Property DisplayName, Status
-
-
 
 # PowerShell Module MrToolkit
 # ----------------------------------------------------------------------------------------------------

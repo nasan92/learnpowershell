@@ -208,3 +208,13 @@ The PowerShell pipeline allows you to send the output of one command directly in
 [Learn PowerShell Pipeline](/06_Pipeline/00_Pipeline.ps1)  
 
 ![Parameter Binding Examples](/06_Pipeline/PowerShellPipeline.drawio.svg)  
+
+
+## 07 - Filtering and Comparisons
+[Learn how and why to filter left](/07_Filtering-Comparisons/00_FilteringLeft.ps1)  
+[Learn Comparision Operators](/07_Filtering-Comparisons/01_Comparison-Operatos.ps1)  
+[Learn Filtering Objects](/07_Filtering-Comparisons/02_FilteringObjects.ps1)    
+
+[LAB - Filtering](/07_Filtering-Comparisons/LAB_Filtering.md)  
+## 08 - Formatting
+[Learn Formatting](/08_Formatting/00_Formatting.ps1)    
