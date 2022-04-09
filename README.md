@@ -216,5 +216,13 @@ The PowerShell pipeline allows you to send the output of one command directly in
 [Learn Filtering Objects](/07_Filtering-Comparisons/02_FilteringObjects.ps1)    
 
 [LAB - Filtering](/07_Filtering-Comparisons/LAB_Filtering.md)  
+
 ## 08 - Formatting
-[Learn Formatting](/08_Formatting/00_Formatting.ps1)    
+[Learn Formatting](/08_Formatting/00_Formatting.ps1)   
+
+## 09 - Providers
+A provider in PowerShell is an interface that allows file system like access to a datastore. There are a number of built-in providers in PowerShell.  
+
+
+[Learn Providers](/09_Providers/00_Providers.ps1) 
+

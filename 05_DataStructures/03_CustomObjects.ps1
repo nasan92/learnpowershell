@@ -38,6 +38,7 @@ $myBeer2
 $myBeer2 | Add-Member -MemberType NoteProperty -Name 'Price' -Value 3.9
 # show the added property with the value:
 $myBeer2.Price
+$myBeer2
 
 
 # Reading / accessing properties
