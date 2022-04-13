@@ -1,3 +1,4 @@
+- Navigate with PowerShell in the registry and go to HKCU:\Software\Microsoft\Windows NT\CurrentVersion\Windows to list your default printer
 - Navigate with PowerShell in the registry and go to HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\
   - find the Advanced key and set its DontPrettyPath property to 1
-- 
+- Use the Environment provider to display the value of the system environment variable %PATH%

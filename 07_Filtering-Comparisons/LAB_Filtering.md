@@ -1,3 +1,3 @@
 - Display all EXE files under C:\Windows\System32 that are larger than 10 MB. 
 - Display the five largest files in your Downloads folder
-- Display the name an the VirtualMemorySize(VM) of 10 most virtual memory hungry processes 
+- Display the name and the VirtualMemorySize(VM) of 10 most virtual memory hungry processes 
