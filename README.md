@@ -224,5 +224,6 @@ The PowerShell pipeline allows you to send the output of one command directly in
 A provider in PowerShell is an interface that allows file system like access to a datastore. There are a number of built-in providers in PowerShell.  
 
 
-[Learn Providers](/09_Providers/00_Providers.ps1) 
+[Learn Providers](/09_Providers/00_Providers.ps1)   
+[LAB - Providers](/09_Providers/LAB_Providers.md)  
 
