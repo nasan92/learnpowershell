@@ -17,10 +17,11 @@ get-service | where Status -eq 'Stopped'
 
 # doesn't return any result because property CanPauseAndContinue wasn't selected
 Get-Service |
-Select-Object -Property DisplayName, Running, Status |
+Select-Object -Property DisplayName, Status |
 Where-Object CanPauseAndContinue
 
 # reversing the order and you'll get the result you want:
 Get-Service |
 Where-Object CanPauseAndContinue |
 Select-Object -Property DisplayName, Status
+

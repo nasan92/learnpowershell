@@ -92,12 +92,16 @@ $a -le 7
 # Partial match test, showing how differently -match and -like behave
 "PowerShell" -match 'shell'        # Output: True
 "PowerShell" -like  'shell'        # Output: False
+"PowerShell" -match '*shell'        # Output: Invalid pattern - doesn't work
 
 # Regex syntax test
 "PowerShell" -match    '^Power\w+' # Output: True
 'bag'        -notmatch 'b[iou]g'   # Output: True
 
 
+# compare speed - which one is faster like or match?
+measure-command {"powershell" -match "shell"}
+measure-command {"powershell" -like "*shell"} 
 
 "PowerShell", "Super PowerShell", "Power's hell" -match '^Power\w+'
 # Output: PowerShell
@@ -165,6 +169,8 @@ $a = "abc", "def"
 $a -in "abc", "def", "ghi" # Output: False
 $a -in $a, "ghi"           # Output: True
 
+$c = "abc"
+$c -in "abc", "def", "ghi" # Output: True
 
 # Type comparison
 # ----------------------------------------------------------------------------------------------------
