@@ -39,7 +39,7 @@ Get-ChildItem -Path HKCU:\Software
 Get-ChildItem HKLM:\SOFTWARE\
 
 Get-ChildItem -Path Env:
-Get-ChildItem -Path Env:APPDATA 
+Get-ChildItem -Path $Env:APPDATA 
 
 # Wildcards are also permitted with -path:
 get-childitem -Path C:\Windows\System32\*.exe
