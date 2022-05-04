@@ -123,3 +123,13 @@ if (!$context)
 }else{
     Write-host "You are already connected with Azure: $context"
 }
+
+
+# Examples with inputs
+# ----------------------------------------------------------------------------------------------------
+$name = Read-host 'Enter your name'
+if($name -eq "Nathanael"){
+    Write-host "$name, Stop talking and go back to work"
+}else{
+    Write-host "Hello $name, you are very welcome to learn a little bit more about PowerShell"
+}
