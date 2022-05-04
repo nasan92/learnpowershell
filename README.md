@@ -227,3 +227,20 @@ A provider in PowerShell is an interface that allows file system like access to 
 [Learn Providers](/09_Providers/00_Providers.ps1)   
 [LAB - Providers](/09_Providers/LAB_Providers.md)  
 
+## 10 - Flow Control
+
+### Conditional Statements
+
+#### The If Statement
+"You can use the If statement to run code blocks if a specified conditional test evaluates to true. You can also specify one or more additional conditional tests to run if all the prior tests evaluate to false. Finally, you can specify an additional code block that is run if no other prior conditional test evaluates to true." - from the Microsoft Docs
+
+[Learn If - Else](10_FlowControl/00_ConditionalStatements-IfElse.ps1)  
+
+#### The Switch Statement  
+"To check multiple conditions, use a switch statement. The switch statement is equivalent to a series of if statements, but it is simpler. The switch statement lists each condition and an optional action. If a condition obtains, the action is performed." - from the Microsoft Docs
+
+[Learn Switch](10_FlowControl/01_ConditionalStatements-Switch.ps1)  
+
+Links:  
+[Microsoft Docs about_if](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_if?view=powershell-7.2)  
+[Microsoft Docs about_switch](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_switch?view=powershell-7.2)  
