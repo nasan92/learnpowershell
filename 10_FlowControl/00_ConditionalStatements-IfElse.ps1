@@ -9,7 +9,7 @@
 # [else
 #     {<statement list 3>}]
 
-$a = 3
+$a = 1
 if ($a -gt 2) {
     Write-Host "The value $a is greater than 2."
 }
@@ -92,15 +92,15 @@ if(!$c){
 }
 
 # -and
-$age = 18
+$age = 134
 if ( ($age -gt 18) -and ($age -lt 30) ){
     Write-host "your age is greater than 18 and less than 30"
 }
 
 # -or
-$age = 2
+$age = 14
 if ( $age -le 13 -or $age -ge 55 ){
-    Write-host "one of the conditions is ture"
+    Write-host "one of the conditions is true"
 }
 
 
