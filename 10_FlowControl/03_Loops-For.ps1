@@ -3,7 +3,7 @@
 
 # Basic Syntax:
 # ----------------------------------------------------------------------------------------------------
-# for (<Init>; <Condition>; <Repeat>)
+# for (<Initial iterator value>; <Condition>; <Repeat>)
 # {
 #     <Statement list>
 # }
@@ -19,5 +19,28 @@ for ($i = 1; $i -lt 5; $i++) {
 
 for ($i = 0; $i -le 20; $i += 2)
 {
-    Write-Host $i
+    Write-Host "number $i"
 }
+
+
+# examples from: https://adamtheautomator.com/powershell-for-loop/
+
+for ($x='' ;$x.length -le 30;$x=$x+'x'){
+  Write-Host $x
+  Start-Sleep -Milliseconds 20
+}
+
+
+$colors = @("Green","Cyan","Red","Magenta","Yellow","White")
+for (($x=''),($fgcolor = $colors | Get-Random) ;$x.length -le 30;($x=$x+'x'),($fgcolor = $colors | Get-Random)){
+    Write-Host $x -ForegroundColor $fgcolor
+    Start-Sleep -Milliseconds 20
+}
+
+
+
+for ($seconds=10; $seconds -gt -1; $seconds--) {
+  Write-Host -NoNewLine ("`rseconds remaining: " + ("{0:d4}" -f $seconds))
+  Start-Sleep -Seconds 1
+}
+
