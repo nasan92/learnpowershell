@@ -244,3 +244,38 @@ A provider in PowerShell is an interface that allows file system like access to 
 Links:  
 [Microsoft Docs about_if](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_if?view=powershell-7.2)  
 [Microsoft Docs about_switch](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_switch?view=powershell-7.2)  
+
+### Loops
+#### Foreach 
+The foreach statement (also known as a foreach loop) is a language construct for stepping through (iterating) a series of values in a collection of items.   
+
+[Learn Foreach](10_FlowControl/02_Loops-ForEach.ps1)  
+
+Links:
+[Microsoft Docs about_Foreach](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_foreach?view=powershell-7.2)  
+
+#### For 
+The For statement (also known as a For loop) is a language construct you can use to create a loop that runs commands in a command block while a specified condition evaluates to $true. 
+
+[Learn For](10_FlowControl/03_Loops-For.ps1)  
+
+Links:
+[Microsoft Docs about_For](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_for?view=powershell-7.2)
+
+
+#### Do While / Do Until
+Do loops always run at least once because the condition is evaluated at the end of the loop.  
+
+[Learn Do](10_FlowControl/04_Loops-Do.ps1)  
+
+Links:
+[Microsoft Docs about_Do](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_do?view=powershell-7.2)
+
+#### While
+Similar to the Do While loop, a While loop runs as long as the specified condition is true - BUT evaluations happens at the top of the loop.  
+
+[Learn While](10_FlowControl/05_Loops-While.ps1)  
+
+Links:
+[Microsoft Docs about_While](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_while?view=powershell-7.2)
+#### Break Continue Return
