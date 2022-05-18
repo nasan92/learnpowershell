@@ -278,4 +278,29 @@ Similar to the Do While loop, a While loop runs as long as the specified conditi
 
 Links:
 [Microsoft Docs about_While](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_while?view=powershell-7.2)
-#### Break Continue Return
+#### Break Continue Return  
+
+
+## 11 - Error Handling
+
+```mermaid
+graph TD
+
+A[2 error types]
+B[Non-Terminating Errors]
+C[Terminating Errors]
+D[turn a non- to a -terminating error]
+E[Use Try/Catch]
+F[with: -ErrorAction Stop]
+
+A --> B
+A --> C
+B --> D
+C --> E
+D --> F
+
+class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
+```  
+
+[Learn Basic Error Handling](/11_ErrorHandling/00_BasicErrorHandling.ps1)   
+
