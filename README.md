@@ -304,3 +304,9 @@ class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 
 [Learn Basic Error Handling](/11_ErrorHandling/00_BasicErrorHandling.ps1)   
 
+Links:
+[Microsoft Docs Exceptions](https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-exceptions?view=powershell-7.2)  
+[Microsoft Docs about_Try_Catch_Finally](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_try_catch_finally?view=powershell-7.2)
+[Techthoughts - PowerShell Errors and Exceptions Handling](https://www.techthoughts.info/powershell-errors-and-exceptions-handling/)
+
+
