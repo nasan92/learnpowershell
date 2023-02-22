@@ -6,7 +6,7 @@
 get-content -Path "C:\nonexisstingfile.txt"
 
 # example which generates an exception:
-$result = 5 / 0; Write-host "Will this run?"
+$result = 5 / 0
 
 
 # types of errors: Terminating error / non-terminating error
@@ -26,7 +26,7 @@ Get-Service w32time,lala,spooler
 # this will generate a non terminating error as well: 
 $folderPath = "K:\Nonexistingfolder"
 $files = Get-ChildItem -Path $folderPath 
-Write-Host "If this runs - the last cmlet had success or a non terminating error"
+Write-Host "If this runs - the last cmlet had success or is a non terminating error"
 
 
 
